@@ -1,7 +1,7 @@
 function getFollower() {
   let ambilFollower = document.createElement("div");
   fetch("https://api.github.com/users/sharfinaega/followers")
-    .then(response => response.json())
+    .then(response => response.json()) //untuk mem-parse data bawaan dari fetch
     .then(follower => {
       console.log(follower);
 

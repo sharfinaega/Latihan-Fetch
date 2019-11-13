@@ -7,8 +7,8 @@ function getFollower() {
 
       let divCon = document.createElement("div");
       divCon.className = "row columns is-multiline";
-      let isiText =
-        "The Beast stumbled in the dark for it could no longer see the path. It started to fracture and weaken, trying to reshape itself into the form of metal. Even the witches would no longer lay eyes upon it, for it had become hideous and twisted.";
+      // let isiText =
+      //   "The Beast stumbled in the dark for it could no longer see the path. It started to fracture and weaken, trying to reshape itself into the form of metal. Even the witches would no longer lay eyes upon it, for it had become hideous and twisted.";
       //   loop follower
       follower.map(data => {
         let foto = document.createElement("div");
@@ -31,7 +31,7 @@ function getFollower() {
                             </div>
                         </div>
                         <div class="content">
-                            ${isiText}
+                           
                             <div class="background-icon"><span class="icon-twitter"></span></div>
                         </div>`;
         //   setiap follower di append ke divCon

@@ -4,7 +4,6 @@ function getFollower() {
     .then(response => response.json()) //untuk mem-parse data bawaan dari fetch
     .then(follower => {
       console.log(follower);
-
       let divCon = document.createElement("div");
       divCon.className = "row columns is-multiline";
       // let isiText =
@@ -26,8 +25,8 @@ function getFollower() {
                             </div>
                             <div class="media-content">
                                 <p class="title is-4 no-padding">${data.login}</p>
-                                <p><span class="title is-6"><a href="${data.html_url}#">Visit GitHub</a></span></p>
                                 <p class="subtitle is-6">Indonesia</p>
+                                <p><span class="title is-6"><a href="${data.html_url}#">Visit GitHub</a></span></p>
                             </div>
                         </div>
                         <div class="content">
